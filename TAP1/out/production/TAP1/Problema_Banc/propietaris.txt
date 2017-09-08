@@ -1,0 +1,7 @@
+1,Paco,123456789,carrer palomo
+2,Paca,223456789,carrer pixo
+3,Ramón,323456789,carrer tortora
+4,Ramona,423456789,carrer pinçar
+5,Fernando,523456789,carrer tord
+6,Fernanda,623456789,carrer colom
+7,Ermenegildo,723456789,carrer x
