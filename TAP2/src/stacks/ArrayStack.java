@@ -12,8 +12,7 @@ public class ArrayStack<T> implements Stack<T>,Iterator<T> {
 
 	  /**
 	   * Constructor del tipo pila. 
-	   * @param tam Especifica el tama�o de la pila
-	   */
+	   **/
 	  public ArrayStack(T[]lista) {
 	    monton = lista;
 	    cima = 0;
@@ -40,11 +39,13 @@ public class ArrayStack<T> implements Stack<T>,Iterator<T> {
 
 
 	public Iterator<T> iterator() {
+		cnt=0;
 		return this;
 	}
 
 
 	public boolean hasNext() {
+
 		return (cnt <cima);
 	}
 

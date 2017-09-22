@@ -1,12 +1,13 @@
 package bank;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * Created by pedro on 9/14/15.
  */
-public class Bank {
+public class Bank implements Iterable<Account>{
     private String name;
     private List<Account> accounts = new LinkedList<Account>();
     private List<Customer> customers = new LinkedList<Customer>();
@@ -44,5 +45,8 @@ public class Bank {
             acc.revision();
     }
 
-
+    @Override
+    public Iterator<Account> iterator() {
+        return accounts.iterator();
+    }
 }

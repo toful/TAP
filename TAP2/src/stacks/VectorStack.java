@@ -10,8 +10,7 @@ public class VectorStack<T > implements Stack<T> {
 	 private int cnt;
 
 	  /**
-	   * Constructor del tipo pila. 
-	   * @param tam Especifica el tama�o de la pila
+	   * Constructor del tipo pila
 	   */
 	  public VectorStack(int max) {
 	    this.monton = new Vector<T>();

@@ -3,6 +3,7 @@ package map2;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Map {
 
@@ -11,7 +12,7 @@ public class Map {
 			for (T elem:list)
 				result.add(function.apply(elem));
 			return result;
-		
-	}
+
+		}
 
 }
