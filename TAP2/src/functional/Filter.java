@@ -29,5 +29,14 @@ public class Filter {
         for (String elem : result)
             System.out.println(elem);
 
+        List<Integer> elems2 = new LinkedList<>();
+        for(int i=0; i<20; i++){
+            elems2.add(i);
+        }
+        List<Integer> result2 = Filter.filter(elems2, x -> x%2==0);
+        for (Integer i : result2){
+            System.out.print("\t"+i);
+        }
+
     }
 }

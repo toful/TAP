@@ -33,7 +33,6 @@ public class Streams {
         animalsOver3.forEach(elem -> System.out.println(elem.getAge()));
 
 
-
         List<Animal> result = list.stream().filter(p -> p.getAge() > 30).collect(Collectors.toList());
         result.forEach(System.out::println);
 

@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd9e165-2b19-442d-a347-b9b8261e181d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TAP1/Problema_Banc/Prova_Banc.class" afterPath="$PROJECT_DIR$/out/production/TAP1/Problema_Banc/Prova_Banc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TAP2/src/Exercise3/Account2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TAP2/src/Exercise3/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TAP2/src/Exercise3/type.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Filter.class" afterPath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Streams.class" afterPath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Streams.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Streams2.class" afterPath="$PROJECT_DIR$/../TAP2/out/production/TAP2/functional/Streams2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bank/Bank.java" afterPath="$PROJECT_DIR$/src/bank/Bank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bank/UseBank.java" afterPath="$PROJECT_DIR$/src/bank/UseBank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structures/Client.java" afterPath="$PROJECT_DIR$/src/structures/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structures/Test3.java" afterPath="$PROJECT_DIR$/src/structures/Test3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TAP2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/stacks/ArrayStack.java" afterPath="$PROJECT_DIR$/../TAP2/src/stacks/ArrayStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/stacks/VectorStack.java" afterPath="$PROJECT_DIR$/../TAP2/src/stacks/VectorStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/accounts.txt" afterPath="$PROJECT_DIR$/../TAP2/accounts.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/defaultmethods/Nicolas.java" afterPath="$PROJECT_DIR$/../TAP2/src/defaultmethods/Nicolas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/functional/Filter.java" afterPath="$PROJECT_DIR$/../TAP2/src/functional/Filter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/functional/Streams.java" afterPath="$PROJECT_DIR$/../TAP2/src/functional/Streams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TAP2/src/functional/Streams2.java" afterPath="$PROJECT_DIR$/../TAP2/src/functional/Streams2.java" />
     </list>
     <ignored path="TAP1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,21 +42,64 @@
       <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bank/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="480">
               <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#369#370#0" expanded="false" />
+                <element signature="e#401#402#0" expanded="false" />
+                <element signature="e#450#451#0" expanded="false" />
+                <element signature="e#490#491#0" expanded="false" />
+                <element signature="e#541#542#0" expanded="false" />
+                <element signature="e#584#585#0" expanded="false" />
+                <element signature="e#624#625#0" expanded="false" />
+                <element signature="e#655#656#0" expanded="false" />
+                <element signature="e#706#707#0" expanded="false" />
+                <element signature="e#748#749#0" expanded="false" />
+                <element signature="e#802#803#0" expanded="false" />
+                <element signature="e#847#848#0" expanded="false" />
+                <element signature="e#889#890#0" expanded="false" />
+                <element signature="e#921#922#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UseBank.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UseBank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bank/UseBank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
+            <state relative-caret-position="735">
               <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tokens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/others/Tokens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prova_Banc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problema_Banc/Prova_Banc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="30" column="112" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -110,9 +156,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
     <option name="y" value="29" />
-    <option name="width" value="1366" />
-    <option name="height" value="739" />
+    <option name="width" value="1374" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -139,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,13 +232,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Problema_Banc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TAP1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TAP1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,12 +722,11 @@
     <option name="totallyTimeSpent" value="2794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1366" height="739" extended-state="6" />
+    <frame x="-4" y="29" width="1374" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -684,6 +748,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -893,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/others/Tokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/others/IO1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -925,20 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problema_Banc/Prova_Banc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,25 +1088,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/UseBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bank/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state relative-caret-position="480">
           <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding>
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#802#803#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/UseBank.java">
+    <entry file="file://$PROJECT_DIR$/src/others/Tokens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+        <state relative-caret-position="270">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problema_Banc/Prova_Banc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="30" column="112" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="112" />
           <folding />
         </state>
       </provider>

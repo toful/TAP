@@ -35,6 +35,8 @@ public class Streams2 {
 
 
         List<String> list = people.stream().map(Animal::getName).collect(Collectors.toList());
+        //més entenedor:
+        List<String> list2 = people.stream().map(a->a.getName()).collect(Collectors.toList());
 
 
 
