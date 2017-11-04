@@ -1,0 +1,55 @@
+
+
+EXAM: COURSES(Factory, Singleton)
+-------------------------------------------------
+You will find a package with classes called "course" and four csv files courses.csv, profs.csv, scores.csv,students.csv.
+
+You have to:
+
+1) Create a School class with a name, a list of professors, a list of students, and a list of courses.   (1)
+   Create a SchoolFactory with a method to create a School and a method to create a Course.
+2) Create a CSVFActory (implementing SchoolFactory) that benefits from course.Tokens  to create a School. (2)
+3) Create a Singleton returning a List of Scores. (1)
+4) Create a LogCourseFactory that inherits from CSVFactory and overrides createCourse. It will return a LogCourse (inheriting CourseImpl)
+that overrides addScore and stores the score in the Singleton's List<Score>
+Check that the list of scores if correct.  (2)
+
+
+5) Perform the following queries over the School:
+
+A) Obtain the list of courses where at least there is a professor of GOOD Quality. (1)
+B) Obtain a Map<Quality,List<Professor>> with professors grouped by Quality. (1)
+C) Obtain a Map<Course, Double> with the average score per course.  (1)
+D) Obtain an ordered list of courses according to the average score.  (1)
+
+
+
+
+EXAM: COURSES (Factory, Singleton)
+-------------------------------------------------
+Encontrara un paquete con clases llamado "course" y cuatro ficheros csv cursos.csv, profs.csv, scores.csv, students.csv.
+
+Tienes que:
+
+1) Crear una clase de School con un nombre, una lista de profesores, una lista de estudiantes y una lista de cursos. (1)
+   Crear una SchoolFactory con un método para crear una escuela y un metodo para crear un curso.
+2) Crear un CSVFActory (implementando SchoolFactory) que utilice course.Tokens para crear una escuela. (2)
+3) Crear un Singleton devolviendo una lista de scores. (1)
+4) Cree un LogCourseFactory que hereda de CSVFactory y reemplace createCourse. Devolverá un LogCourse (heredando CourseImpl)
+que redefine addScore y almacena cada Score en la lista del Singleton <Score>
+Compruebe que la lista de calificaciones es correcta. (2)
+
+
+5) Realizar las siguientes preguntas sobre la Escuela:
+
+A) Obtener la lista de cursos donde al menos hay un profesor de Calidad GOOD. (1)
+B) Obtener un Map<Quality,List<Professor>> con profesores agrupados por Calidad. (1)
+C) Obtener un Map<Course, Double> con la puntuacion media por curso. (1)
+D) Obtener una lista ordenada de cursos de acuerdo a la puntuacion media. (1)
+
+
+
+
+
+
+

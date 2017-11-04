@@ -1,0 +1,54 @@
+
+EXAM: WordCount (Decorator, Iterator, Singleton)
+
+
+1. The goal is to implement an algorithm that counts all words in a text file. The algorithm must
+   return a Map<String,Integer> or Map<String,Long> where the key is the word and the value is the number of occurrences
+   of that word. Use TAP1/others/Tokens.java  (1)
+
+   Print the count of all words in the file big.txt: 909179.  (1)
+
+   Show the ordered list of words with more than 5000 values. (1)
+[a, and, as, at, be, by, for, had, he, his, i, in, is, it, not, of, on, that, the, to, was, with]
+
+
+2. Implement a LinkedListDecorator called ListSetDecorator that does not  add repeated ojects to the list. (2)
+
+3. Implement a LinkedListDecorator called ListMapDecorator that must apply a Function<T,R> to every element of the list when the list is iterated.
+  Demonstrate that we can pipe the Decorators (2 and 3). (2)
+
+4. Modify importFile to accept as parameter a LinkedList<String> to store the result. Pass the ListMapDecorator with a function that converts words to lower case. (1)
+
+5. Implement a LinkedListDecorator called ListFuncDecorator that must apply a list of Function<T,R> to every element of the list when the list is iterated. (1)
+   You can use compose or andthen over the list of Functions that can be added to the Decorator.
+   Pass to importFile a LinkedListDecorator with two Functions: one that removes character outside a-z and A-Z, and another that converts words in a list to XXX. Test with the censor list (frowning, italy, observed).
+    HINT: word.replaceAll("[^a-zA-Z]", "")
+
+
+EXAM: WordCount (Decorator, Iterator, Singleton)
+
+1. El objetivo es implementar un algoritmo que cuente todas las palabras en un archivo de texto. El algoritmo
+   devuelve un Map <String, Integer> o Map <String, Long> donde la clave es la palabra y el valor es el numero de ocurrencias
+   de esa palabra. (2)
+   Usad TAP1/others/Tokens.java
+
+   Imprime el recuento de todas las palabras del archivo big.txt: 909179  (1)
+
+   Muestra ordenadas las palabras con mas de 5000 apariciones:  (1)
+   [a, and, as, at, be, by, for, had, he, his, i, in, is, it, not, of, on, that, the, to, was, with]
+
+2. Implementar un LinkedListDecorator llamado ListSetDecorator que no agrega objects repetidos a la lista. (2)
+
+3. Implementar un LinkedListDecorator llamado ListMapDecorator que debe aplicar una función <T, R> a cada elemento de la lista cuando se itera la lista.
+  Demostrar que podemos conectar los decoradores (2 y 3). (2)
+
+4. Conectar en pipe la salida de importFile (LinkedList) con un ListMapDecorator usando una función que cuente palabras.
+Utiliza un Singleton para almacenar el resultado Map<String,Integer>. (1)
+
+5.  Implementar un LinkedListDecorator llamado ListFuncDecorator que debe aplicar una lista de Function <T, R> a cada elemento de la lista cuando se itera la lista. (1)
+   Puede utilizar "compose" o "andthen" sobre la lista de funciones que se pueden agregar al decorador.
+   Pase para importar un LinkedListDecorator con dos Funciones: una que elimina caracteres fuera de -Z y A-Z, y otra que convierte palabras en una lista a XXX. Prueba con la lista de censores (frowning, italy, observed).
+
+
+
+    SUGERENCIA: word.replaceAll ("[^ a-zA-Z]", "")ord.replaceAll ("[^ a-zA-Z]", "")

@@ -33,6 +33,7 @@ public class Main {
 		System.out.println("\nRoot ls:\n"+root.ls());
 		System.out.println("\nhome ls:\n"+home.ls());
 
+		System.out.println("\n\nls amb Visitor");
 		AComponentVisitor lsvisitor = new LsVisitor();
 		root.accept(lsvisitor);
 

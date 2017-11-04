@@ -90,8 +90,8 @@ public class Directory implements AComponent {
 
 	@Override
 	public void accept(AComponentVisitor v) {
-		children.forEach(a -> a.accept(v));
 		v.visit(this);
+		children.forEach(a -> a.accept(v));
 	}
 
 	@Override
