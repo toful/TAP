@@ -58,9 +58,9 @@ object Exercice1 extends scala.App{
     case x :: xs => reduceAccum(f, f(x,default), xs)
   }
 
-  def reduce2 [T](f: (T,T) => T, xs: List[T]): Any= {
+  /*def reduce2 [T](f: (T,T) => T, xs: List[T]): Any= {
     reduceAccum(f, 0, xs)
-  }
+  }*/
 
   println(reduce (((x: Int ,y:Int)=> x+y), 0, list1))
   println(reduceAccum(((x: Int ,y:Int)=> x+y),0,list1))
