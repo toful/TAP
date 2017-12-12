@@ -1,0 +1,15 @@
+
+
+1. Escribe un funcion que calcule el minimo elemento de una lista de enteros
+
+2. Usando funciones del lenguaje, crea una funcion que devuelva las palabras que empiecen por "a" y con todos sus caracteres en mayusculas.
+
+3.  Escribe una función que calcule el numero de libros de un autor de la lista. Puedes usar las funciones sobre listas (map, ...)
+
+4. Reescribe la funcion del ejercicio 1 para que soporte cualquier tipo. Pasale para ello una funcion menorque.
+ NOTA: no usar funciones internas auxiliares como en min.
+
+5. Parametriza parcialmente la función del ejercicio anterior para ordenar libros.
+
+6. Usando la implementacion del patron composite, añade la funcion map al sistema de ficheros y directorios.
+      Muestra un ejemplo en el que obtengamos con map una lista de Strings con todos los nombres de ficheros y directorios.
