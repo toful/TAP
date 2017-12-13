@@ -1,0 +1,41 @@
+
+
+1.1. Implementa la funcion replace(list,value1,value2) que devuelva una lista reemplazando las apariciones de value1
+por value2 en list. Usa recursividad acumulativa.
+
+2.. Implementa la funcion "ex2" que recibe una lista de palabras y retorna solo aquellas con mas de 6 caracteres.
+ Ademas, si contienen el caracter 'a' será cambiado por 'A' .
+ Utilita las funciones map y/o filter y/o foldRight
+
+ Puedes utlizar la funcion "replace" en String.
+
+
+3.  Implementa la funcion "ex3" que dada una lista de Libros retorna el titulo del libro mas caro
+Implementa dos versiones de ex3, una con foldRight sobre la lista de Libros.
+
+val books = List(Exam1.Book("Asimov",56),Exam1.Book("Leguin",99),Exam1.Book("Orwell",23))
+println(ex3(books))
+
+
+ 4- Implementar la funcion "foldr_filter" que calcule una operacion para los elementos
+    de una lista que cumplan una condicion especifica.
+    foldr_filter tiene la forma:  <foldr_filter  condicion  operacion valor_inicial  lista>
+
+        ej. foldr_filter (>4) (+) 0 [3,6,4,5] --> 11      // sumaria el 5 y el 6
+
+    Implementa "suma_pares" parametrizando parcialmente foldr_filter para que sume
+    los numeros pares de una lista (empezando siempre desde 0). (3.0 puntos)
+
+        ej. suma_pares [2,4,5,6]  --> 12  // sumaria el 2,4 y 6
+
+5. Implementar el ejercicio 4 usando paso de parametros por curry.
+Mediante parametrización genera dos funciones:
+sumapares (suma los elementos pares de una lista)
+maxautor (obtiene el nombre del libro escrito por autor cuyo precio sea el mayor)
+ej. sumapares List(1,2,3,4) -> 6
+ej. maxAuthor(author,List)
+
+6. Usando la implementacion del patron composite, añade la funcion filter al sistema de ficheros y directorios.
+      Muestra un ejemplo en el que obtengamos con filter una lista de ficheros y directorios que empiezan por una letra.
+
+

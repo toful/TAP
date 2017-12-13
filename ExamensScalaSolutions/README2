@@ -1,0 +1,29 @@
+
+
+
+
+1. Escribe una funcion que calcule las apariciones de un valor en una lista. Escribe el código con recursividad acumulativa.
+
+ val list = List(22,11,56,76,343,11,33,4,2,67,8)
+ println(count(list,11))
+
+2. Escribe la misma función count del ejercicio 1 pero utilizando las funciones de listas del propio lenguaje (map, filter, ...)
+   Opcional: Reescribir la función usando List.count
+
+3. a) Escribe una función que calcule el nombre del autor del libro mas caro de una lista. Puedes usar las funciones sobre listas (map, ...)
+
+    val books = List(Book("Isaac Asimov",56),Book("Leguin",99),Book("Orwell",23))
+    println(ex3(books))
+
+    b) Escribe la función del apartado a usando foldRight sobre la lista de libros.
+
+
+4. Implementa la funcion mapfilter que aplica la función f1 sobre los elementos de la lista que cumplen fon f2. Implementar la funcion
+ con recursividad de pila y acumulativa (stack y tail recursion).
+
+5. Convertir la funcion mapfilter a Curry y mostrar un ejemplo de parametrización parcial.
+
+6. Usando la implementacion del patron composite, añade la funcion map al sistema de ficheros y directorios.
+   Muestra un ejemplo en el que obtengamos con map una lista de Strings con todos los nombres de ficheros y directorios.
+
+
