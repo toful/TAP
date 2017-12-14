@@ -1,0 +1,36 @@
+
+
+1. Implementa la funcion replace(list,list2,value) que devuelva una lista reemplazando los elementos de list que aparezcan en list2 por value.
+Usa recursividad de pila y acumulativa.
+
+
+2. Implementa la funcion replace del primer ejercicio pero utilizando funciones nativas de listas (filter, map,foldright).
+
+
+3.  Dada  esta lista de Accounts:
+ val accounts = List(Account(Owner("pedro","123"),1000), Account(Owner("bob","456"),500),Account(Owner("marge","666"),18000))
+ Calcular el nombre del cliente mas rico de la lista de tres maneras: usando foldRight, sortWith y maxBy
+
+
+ 4- Implementar la funcion "ex4" que acepte dos listas y una funcion de filtro. Si se cumple la funcion sobre elementos de las dos listas, devolvera las tuplas
+ que cumplan la funcion.  Implementar la funcion con recursividad de pila y con acumulativa.
+ Ejemplo:
+
+  println(ex4a((a:Int,b:Int)=>a>b, List(1,4,8),List(1,3,5)))
+ Resultado: List((4,3), (8,5))
+
+
+5. Implementar el ejercicio 4 usando paso de parametros por curry.
+Mediante parametrización parcial genera la funcion odds que acepte dos listas y devuela la lista de tuplas de elementos pares
+println (odds (List(1,2,3,4,5)) (List(1,2,3,4,5)))
+List((2,2), (4,4))
+println (odds (List(1,2,3,4,5)) (List(1,6,3,8,2)))
+List((2,6), (4,8))
+
+
+6. Implementar el ejemplo de Adapter de TAP3 en Scala.
+
+7. Implementar ahora el Class Adapter usando traits en Scala.
+Si podeis demostrar el class Adapter sin crear una clase nueva tendreis puntuacion adicional.
+
+

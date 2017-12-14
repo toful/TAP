@@ -30,6 +30,14 @@ object Exercici_funcions_arbre {
     else y;
   }
 
+  def ex5(tree:ITree):Boolean = {
+    def allSonsLittle(tree: ITree, elem: Int): Boolean = tree match {
+      case TNil() => true
+      case Tree(a, b, c) => b < elem && allSonsLittle(a, b) && allSonsLittle(c, b)
+    }
+    allSonsLittle(tree, Int.MaxValue)
+  }
+
   def maxtree(tree:ITree):Int = tree match {
       case TNil() => 0
       case Tree(a,b,c) => max(b, max(maxtree(a), maxtree(c)))
@@ -63,6 +71,8 @@ object Exercici_funcions_arbre {
     println(altura(a2))
 
     println(altura(a1))
+
+
 
   }
 }

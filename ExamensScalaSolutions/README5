@@ -1,0 +1,37 @@
+
+1. Escribe una funcion central que reciba una lista de enteros y devuelva una tupla con tres elementos: el primer elemento de la lista,
+  una lista con los menores que el primero ordenados, y otra lista con los mayores que el primero ordenados. Podeis usar la funcion de listas "sorted".
+
+val list = List(22,11,56,76,343,11,33,4,2,67,8)
+  println(central(list))
+
+ Resultado: (22,List(2, 4, 8, 11, 11),List(33, 56, 67, 76, 343))
+
+
+2. Escribe la misma función central del ejercicio 1 pero utilizando las funciones de listas del propio lenguaje (map, filter, ...)
+
+
+3. Escribe una función que calcule la media de precios de una biblioteca.
+
+  val books = List(Book("Isaac Asimov",56),Book("Leguin",99),Book("Orwell",23))
+
+  println(ex3(books))
+  Resultado: 59
+
+4. Implementa la funcion zipfold que se le pasan dos listas, y aplica la funcion f con elementos de las dos (zip), y despues las combina con
+la misma funcion para obtener un resultado (fold). Implementar zipfold con recursividad de pila y acumlativa.
+
+println(ex4(sum,0,List(1,2,3), List(2,3,4)))
+Resultado: 15
+
+5. Utilizad parametrizacion parcial en 4 para generar una funcion concat_lists y otra max_lists
+ println (max_lists(List(1,6,4,7),List(99,23,1,5)))
+ Resultado:99
+ println (concat_lists(List("hola","amigo","mio"),List("aprobare","tap", "seguro")))
+ Resultado: holaaprobareamigotapmioseguro
+
+6. Implementar el ejemplo de Observer de TAP3 en Scala usando traits a ser posible.
+  Avanzado: Conseguir modificar el subject en tiempo de ejecucion para que sea Observable de manera transparente
+  usando Stackable traits. En el nuevo Subject no es necesario notificar a los observers. Se hace con traits en tiempo de ejecucion.
+
+
