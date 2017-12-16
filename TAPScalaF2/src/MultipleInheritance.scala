@@ -12,6 +12,7 @@ trait XPerson {
 }
 
 class Mutant extends XAnimal with XPerson
+
 class Alien (name:String)
 
 object MultipleInheritance {

@@ -15,6 +15,7 @@ object Ex3 extends scala.App{
 
   def ex3b(l:List[Book]) = l.map(_.price).foldRight(0) (_+_) /l.length
 
+
   val books = List(Book("Isaac Asimov",56),Book("Leguin",99),Book("Orwell",23))
 
   println(ex3(books))

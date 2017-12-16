@@ -1,0 +1,50 @@
+Scala17b
+---------------------------------
+
+1.  Implementa la funcion zipWith[T](l:List[T]):List[(T,Int)] que dada una lista devuelva una lista de tuplas incluyendo en cada tupla el elemento y su posicion.
+    println(zipWith(List("a","b","c")))  -> List((a,0), (b,1), (c,2))
+Implementa la versión de pila y la acumulativa.
+Usa recursividad, no funciones de scala.
+
+2. Importa la lista Accounts del fichero accounts.txt de TAPScalaF2 (src/composite/Ex2)
+Usad funciones de scala (no implementeis vuestras funciones recursivas).
+
+a) Utilizar groupBy para obtener un mapa de las cuentas agrupadas por propietario owner
+b) Obtener el mapa Map<String,Long> donde la clave sea el propietario y el valor la suma de todos sus balances.(sugerencia: mapValues)
+c) Obtener el propietario con la cuenta con mayor saldo
+
+3. Implementar una funcion partition[T](list:List[T],f:T=>Boolean):(List[T],List[T]) que devuelva una tupla con una lista de los que cumplen la funcion f y otra lista con los que no.
+
+Particionar la lista de accounts entre las cuentas de barcenas y el resto.
+(List(Account(98976,barcenas,IF,9293293923929), Account(33434,barcenas,BA,98298), Account(11212,barcenas,CA,202030)),List(Account(923637,pere,CA,34343434), Account(834235,mariano,SA,23232240), Account(72632,nicolas,BA,232323), Account(2324,pere,IF,2323), Account(3434,carles,CA,2323), Account(46566,pere,CA,232), Account(23232,pau,SA,2323), Account(56544,pere,IF,10)))
+
+Usa recursividad, no funciones de scala.
+
+4. Implementar la funcion partition_folder [T,R](default:R,list:List[T],f:T=>Boolean, f2:(T,R)=>R):(R,R)
+ En este caso devuelva una tupla con dos valores calculados por la funcion f2 y particionados por f.
+
+ Ejemplo:
+ Calcular la tupla formada por los balances de las cuentas de barcenas y del resto.
+
+Usa recursividad, no funciones de scala.
+
+5. Implementa la funcion def  balances (owner:String,list:List[Account]) que devuelva una tupla con los balances de owner y del resto.
+  Parametriza parcialmente partition_folder para crear la funcion balances.
+
+6. Implementa el patron Visitor sobre el sistema de ficheros que usa Composite.
+Crea un SizeVisitor que guarda los ficheros con tamaño menor de maxsize para de mostrar su funcionamiento.
+
+val v = new SizeVisitor(5000)
+root.accept(v)
+println(v.files) -> ListBuffer(File(f2), File(f1))
+
+7. Para evitar modificar el Composite, cread una funcion accept que recorra el AComponent implementando el patron Visitor. Se recomienda usar pattern matching.
+Ej:
+  val v = new XSizeVisitor(5000)
+  accept(root,v)
+  println(v.files) -> ListBuffer(File(f2), File(f1))
+
+
+Puntuacion: 1:1 2:2 3:1 4:2 5:1 6:2 7:1
+
+

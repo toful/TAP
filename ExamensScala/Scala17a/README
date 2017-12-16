@@ -1,0 +1,107 @@
+
+
+EXAM: Scala17a
+-------------------------------------------------
+1. Implement the function toNum (list: List [Int]): Double that converts a list of digits from 0 to 9 into an integer.
+For example. toNum (List (1,2,0,0)) -> 1200, toNum (List (7,6,1)) -> 761
+Implements the stack and cumulative versions.
+Use recursion, not scala functions like filter or map.
+
+
+2. Implement the countWords function (word: String, list: List [String]): Int that counts the number of occurrences of a word in a list of Strings.
+Example:
+ val lines: List [String] = List ("TAP is the best", "this subject", "so fun career", "I think I'm the best", "and I'm going to approve TAP")
+ countWords ("TAP", lines) -> 2
+Use scala functions, not recursion.
+
+Parametrize partially countWords to generate a function that returns the number of occurrences of "best" in a list.
+
+3. Implement the function of the previous exercise using foldLeft.
+Use scala functions, not recursion.
+
+4. Implement the countWord function that counts the number of occurrences of a word: String in a text file (big.txt, hello.txt)
+println (countWord ("TAP", lines)) -> 3
+Use scala functions, not recursion.
+
+5. Implement the mapWhen [T, R] (list: List [T]) function (f: T => T) (condition: T => Boolean): List [T] that returns the list with the mapped elements that comply condition.
+Use recursion, not scala functions like filter or map.
+
+For example, with the list val l: List [Int] = List.range (1,100)
+Use the function to square elements that are less than 20 (condition).
+Parametrize partially filterWhen to generate a function that squares the elements that are less than 20
+
+Also show an example in which in a list of strings we censor the words in a list 
+(bomb,isis) => censored.
+
+6. Implements the Visitor pattern on the file system used by Composite.
+Create a SizeVisitor that saves the files with smaller size of maxsize to stop its operation.
+
+val v = new SizeVisitor (5000)
+root.accept (v)
+println (v.files) -> ListBuffer (File (f2), File (f1))
+
+7. To avoid modifying the Composite, create an accept function that traverses the AComponent by implementing the Visitor pattern. It is recommended to use pattern matching.
+Ex:
+  val v = new XSizeVisitor (5000)
+  accept (root, v)
+  println (v.files) -> ListBuffer (File (f2), File (f1))
+
+
+Scores: 1:1 2:2 3:1 4:1 5:2 6:2 7:1   
+
+
+EXAM: Scala17a
+-------------------------------------------------
+
+
+1. Implementa la funcion toNum(list:List[Int]):Double que convierta una lista de digitos del 0 al 9 en un entero.
+Por ejemplo. toNum(List(1,2,0,0)) -> 1200, toNum(List(7,6,1)) -> 761
+Implementa la versión de pila y la acumulativa.
+Usa recursion, no funciones de  scala como filter o map.
+
+
+2. Implementa la funcion countWords(word:String,list:List[String]):Int que cuente el numero de apariciones de una palabra en una lista de Strings.
+Ejemplo:
+ val lines:List[String] = List("TAP es la mejor","asignatura de esta ", "carrera tan divertida","Creo que soy el mejor","y voy a aprobar TAP")
+ countWords("TAP",lines) -> 2
+
+Parametriza parcialmente countWords para generar una funcion que retorne el numero de apariciones de "mejor" en una lista.
+Usa funciones de  scala, no recursion.
+
+
+3. Implementa la funcion del ejercicio anterior utilizando foldLeft.
+
+4. Implementa la funcion countWord que cuente el numero de apariciones de una palabra word:String en un fichero de texto (big.txt, hola.txt)
+println(countWord("TAP",lines)) -> 3
+Usa funciones de  scala, no recursion.
+
+5. Implementa la funcion mapWhen[T,R](list:List[T]) (f:T=>T) (condition:T=>Boolean):List[T] q ue devuelva la lista con los elementos mapeados que cumplan condition.
+
+Por ejemplo, con la lista val l:List[Int] = List.range(1,100)
+Usad la funcion para elevar al cuadrado los elementos que sean menores de 20 (condition).
+Parametrizar parcialmente filterWhen para generar una funcion que eleve al cuadrado los elementos que sean menores de 20
+
+Mostrad tambien un ejemplo en el que en una lista de strings censuremos las palabras de una lista.
+(bomb,isis) => censored.
+
+Usa recursion, no funciones de  scala como filter o map.
+
+6. Implementa el patron Visitor sobre el sistema de ficheros que usa Composite.
+Crea un SizeVisitor que guarda los ficheros con tamaño menor de maxsize para de mostrar su funcionamiento.
+
+val v = new SizeVisitor(5000)
+root.accept(v)
+println(v.files) -> ListBuffer(File(f2), File(f1))
+
+7. Para evitar modificar el Composite, cread una funcion accept que recorra el AComponent implementando el patron Visitor. Se recomienda usar pattern matching.
+Ej:
+  val v = new XSizeVisitor(5000)
+  accept(root,v)
+  println(v.files) -> ListBuffer(File(f2), File(f1))
+
+
+Puntuacion: 1:1 2:2 3:1 4:1 5:2 6:2 7:1   
+
+
+
+

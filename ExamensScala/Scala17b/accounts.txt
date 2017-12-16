@@ -1,0 +1,11 @@
+11212,barcenas,CA,202
+56544,pere,IF,10
+23232,pau,SA,2323
+33434,barcenas,BA,982
+46566,pere,CA,232
+3434,carles,CA,2323
+2324,pere,IF,2323
+98976,barcenas,IF,92932
+72632,nicolas,BA,232323
+834235,mariano,SA,2323
+923637,pere,CA,3434

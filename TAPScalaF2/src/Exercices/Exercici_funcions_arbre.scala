@@ -1,6 +1,3 @@
-/**
-  * Created by pedro on 9/8/15.
-  */
 
 /*class ITree
 case class Tree(left:ITree,value:Int,right:ITree) extends ITree

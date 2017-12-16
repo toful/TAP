@@ -3,8 +3,7 @@
  */
 
 
-class Monster[T](
-                private var name:String, private var monster:T){
+class Monster[T](private var name:String, private var monster:T){
   def getName:String=name
   def getMonster:T = monster
   def setMonster(newM:T)=monster=newM

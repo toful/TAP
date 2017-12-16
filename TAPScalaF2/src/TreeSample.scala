@@ -1,11 +1,11 @@
 /**
  * Created by pedro on 9/8/15.
  */
-
+/*
 class ITree
 case class Tree(left:ITree,value:Int,right:ITree) extends ITree
 case class TNil() extends ITree
-
+*/
 
 object TreeSample {
 
