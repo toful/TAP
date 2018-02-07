@@ -19,7 +19,6 @@ public class Ex1 {
         Map<String, Integer> words = countWords(lines);
         System.out.println(words);
         System.out.println(words.values().stream().mapToInt(Integer::intValue).sum());
-
         System.out.println(words.entrySet().stream().filter(e->e.getValue()>5000).map(e->e.getKey()).sorted().collect(Collectors.toList()));
 
 

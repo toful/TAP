@@ -1,0 +1,68 @@
+Actor -> següent nivell de l'orienatació a objectes, envia missatges de forma totalment transparent
+
+DSL?
+
+funció pura: en qualsevol moment podem substituir-la per un valor i el codi donarà el mateix resultat
+La mutabilitat està acceptada però a nivell de funció
+
+Cats (llibreria)
+
+enlloc de   val r1 = n.map(add).map(mul)
+fer         val r2 = n.map(add andThen mul)
+
+sealed li diu al compilador que només existiràn les classes definides
+    sealed trait Shape
+    case class Rectangle
+    case class Circle
+un tipus Shape només podrà ser o un cercle o un rectangle i no ens saltarà cap excepció per si ens deixenm algún cas
+
+Lens --> ens serviria per modificar un valor d'una estructura aniuada immutable
+
+Type classes
+    permet modificar el comportament de les classes sense haver d'usar el patró adapter
+implicit object -> li diu al compilar que en el cas que no trobi x que busqui en el codi algo del tipus x
+
+Semigrups i monoids
+un monoid és un semigrup però amb una funció empty
+
+Functors
+    ens permit usar un map sobre una box
+    caixa -> qualsevol cosa que pot contenir una tipus A, B ...
+    lift -> prmet agafar qualsevol funció que ...
+
+Monads
+    mecanisme de control per fer computacions seqüencials
+    defineix tres funcions:
+        pure
+        map
+        flatMa
+    tenen la estructura
+
+    for{
+        a <- x
+        b <- y
+    }yield(a+b)
+
+també tenim la classe try --> fiquem un try i si hi ha unexcepció l'agafa
+
+Future -> asíncron i seqüencial
+
+Either -> té left i right, un llança l'excepció i l'altre executa el codi
+
+Eval --> permet evitar stackOverflow (és un monod)
+        Evel.now(cas directe)
+        Evel.defer(cas recursiu)
+    encapsula la funció en un objecte
+
+Writer un altre tipus monad que servei per fer login de forma funcional
+
+Reader (MOLT IMPORTANT) funció de A -> B a la que se li afegeix flatMap
+    A => B: Reader[A,B]
+
+Monad Transformers
+
+Applicative -> no defineixen flatMap però sí altres funcions
+
+Validated -> mirar també
+
+Fibonacci streams -> exemple de memoazing en scala

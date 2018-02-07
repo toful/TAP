@@ -40,7 +40,7 @@ public class Streams {
         long number =  list.stream().filter(p -> p.getAge() > 30).collect(Collectors.counting());
         System.out.println("number "+number);
 
-        list.stream().filter(p -> p.getAge() > 30).count();
+        System.out.println(list.stream().filter(p -> p.getAge() > 30).count());
 
 
 
